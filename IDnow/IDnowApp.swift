@@ -11,7 +11,9 @@ import SwiftUI
 struct IDnowApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            let model = ViewModel()
+            ContentView2(model: model)
         }
     }
 }

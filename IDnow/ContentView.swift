@@ -10,7 +10,7 @@ import IDnowSDK
 
 struct ContentView: View {
 
-    @State private var ident: String = ""
+    @State private var ident: String = "TST-SYVCR"
     @State private var error: String? = nil
     
     var body: some View {
@@ -56,4 +56,54 @@ struct ContentView: View {
         })
     }
 }
+
+struct ContentView2: View {
+    @ObservedObject var model: ViewModel
+    @State var buttonEnabled: Bool = false
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0, content: {
+            HStack {
+                Spacer()
+                Image("logo-main")
+                Spacer()
+            }.padding()
+            Text("Please enter and confirm your Ident-ID to start the idenfitcation process")
+                .padding()
+                .multilineTextAlignment(.center)
+            TextField("Enter your Ident-ID here", text: $model.tokenField)
+                .padding()
+                .padding()
+                .multilineTextAlignment(.center)
+                .onSubmit {
+                    self.onConfirm()
+                }
+            HStack {
+                Spacer()
+                Button("CONFIRM") {
+                    self.onConfirm()
+                }
+                .disabled(!buttonEnabled)
+                .onReceive(model.buttonEnabled) { enabled in
+                    self.buttonEnabled = enabled
+                }
+                Spacer()
+            }
+            
+        })
+        .onAppear {
+            model.tokenField = "TST-NHHCC"
+        }
+        .alert(isPresented: $model.identFinishedFailed ) {
+            Alert(title: Text("Error"), message: Text(model.errorMessage), dismissButton: .default(Text("Close"), action: {
+                model.finish()
+            }))
+        }
+        
+    }
+    
+    func onConfirm() {
+        model.start()
+    }
+}
+
 

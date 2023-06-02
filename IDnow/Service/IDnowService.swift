@@ -8,6 +8,10 @@
 import Foundation
 import IDnowSDK
 
+extension IDnowSettings {
+    static let instance = IDnowSettings()
+}
+
 class IDnowService {
     static let instance = IDnowService()
     
