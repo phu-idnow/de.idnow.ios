@@ -394,6 +394,7 @@
 				DEVELOPMENT_TEAM = 4W3KTRTP73;
 				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",

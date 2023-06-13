@@ -11,7 +11,11 @@ import UIKit
 class ViewUtils {
     
     static func rootController() -> UIViewController {
-        return UIApplication.shared.windows[0].rootViewController!
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let rootViewController = windowScene.windows.first?.rootViewController {
+            return rootViewController
+        }
+        return UIApplication.shared.windows.last?.rootViewController ?? UIViewController()
     }
     
 }
