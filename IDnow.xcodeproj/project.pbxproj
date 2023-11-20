@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5471E2E9B7FD92796F953101 /* Pods_IDnow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA062A9B288D6CD1F178F4E /* Pods_IDnow.framework */; };
 		AD26A4782758D9780015C576 /* IDnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26A4772758D9780015C576 /* IDnowApp.swift */; };
 		AD26A47A2758D9780015C576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26A4792758D9780015C576 /* ContentView.swift */; };
 		AD26A47C2758D97B0015C576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47B2758D97B0015C576 /* Assets.xcassets */; };
 		AD26A47F2758D97B0015C576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */; };
 		AD95F853275915A700C21A4E /* IDnowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F852275915A700C21A4E /* IDnowService.swift */; };
 		AD95F8562759166300C21A4E /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F8552759166300C21A4E /* ViewUtils.swift */; };
-		FF128D667E40624016137EEB /* Pods_IDnow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.release.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.release.xcconfig"; sourceTree = "<group>"; };
-		4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.debug.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA062A9B288D6CD1F178F4E /* Pods_IDnow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7052DBB96B3DFF3A6CB8E13 /* Pods-IDnow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.debug.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB0ECD6DFDE414F17299BA8 /* Pods-IDnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.release.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.release.xcconfig"; sourceTree = "<group>"; };
 		AD26A4742758D9780015C576 /* IDnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD26A4772758D9780015C576 /* IDnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowApp.swift; sourceTree = "<group>"; };
 		AD26A4792758D9780015C576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		AD95F84D2758E58A00C21A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD95F852275915A700C21A4E /* IDnowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowService.swift; sourceTree = "<group>"; };
 		AD95F8552759166300C21A4E /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
-		E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +35,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF128D667E40624016137EEB /* Pods_IDnow.framework in Frameworks */,
+				5471E2E9B7FD92796F953101 /* Pods_IDnow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		901FC84F48E2603D8643FC6A /* Frameworks */ = {
+		8624D18B08CD777A57B94BFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */,
+				7BA062A9B288D6CD1F178F4E /* Pods_IDnow.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 				AD26A4762758D9780015C576 /* IDnow */,
 				AD26A4752758D9780015C576 /* Products */,
 				F0046A98F241777A4F220883 /* Pods */,
-				901FC84F48E2603D8643FC6A /* Frameworks */,
+				8624D18B08CD777A57B94BFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,8 +109,8 @@
 		F0046A98F241777A4F220883 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */,
-				029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */,
+				A7052DBB96B3DFF3A6CB8E13 /* Pods-IDnow.debug.xcconfig */,
+				ACB0ECD6DFDE414F17299BA8 /* Pods-IDnow.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -122,12 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD26A4822758D97B0015C576 /* Build configuration list for PBXNativeTarget "IDnow" */;
 			buildPhases = (
-				18B86C0FE75BC154CEAE04EA /* [CP] Check Pods Manifest.lock */,
+				44CEE94B7F2B3BDC087B32A8 /* [CP] Check Pods Manifest.lock */,
 				AD26A4702758D9780015C576 /* Sources */,
 				AD26A4712758D9780015C576 /* Frameworks */,
 				AD26A4722758D9780015C576 /* Resources */,
-				BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */,
-				CC74A92DF640DE527330C294 /* [CP] Embed Pods Frameworks */,
+				B81C2DF6E398FA35219E13D4 /* [CP] Embed Pods Frameworks */,
+				2E794329785074ADDE515912 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +184,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18B86C0FE75BC154CEAE04EA /* [CP] Check Pods Manifest.lock */ = {
+		2E794329785074ADDE515912 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44CEE94B7F2B3BDC087B32A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,24 +223,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC74A92DF640DE527330C294 /* [CP] Embed Pods Frameworks */ = {
+		B81C2DF6E398FA35219E13D4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +375,7 @@
 		};
 		AD26A4832758D97B0015C576 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */;
+			baseConfigurationReference = A7052DBB96B3DFF3A6CB8E13 /* Pods-IDnow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,6 +400,40 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"idnow-sdk\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"Contacts\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"libPhoneNumber_iOS\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.example.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -410,7 +444,7 @@
 		};
 		AD26A4842758D97B0015C576 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */;
+			baseConfigurationReference = ACB0ECD6DFDE414F17299BA8 /* Pods-IDnow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +469,40 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"idnow-sdk\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"Contacts\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"libPhoneNumber_iOS\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.example.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
