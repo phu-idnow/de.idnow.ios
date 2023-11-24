@@ -432,6 +432,7 @@
 					"\"WebKit\"",
 					"-framework",
 					"\"libPhoneNumber_iOS\"",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.example.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +501,7 @@
 					"\"WebKit\"",
 					"-framework",
 					"\"libPhoneNumber_iOS\"",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.example.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
